@@ -1,0 +1,376 @@
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+$orange1 : #08d684;
+$orange2 : #5090f7;
+//#ee5d29
+//#ffbe00
+//#5090f7;
+
+#techList {
+	position: relative;
+	list-style: none;
+	margin: 8vh auto 0 auto;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.7vmin;
+	text-transform: uppercase;
+	color: #fff;
+	transform: scale(2.2);
+	backface-visibility: hidden !important;
+	display: inline-block;
+	width: 35.9em;
+	height: 8.6em;
+}
+
+#techList li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	//	bottom:-24px;
+	transition: all 1s ease;
+	backface-visibility: hidden !important;
+}
+
+.html5 {
+	font-weight: 700;
+	letter-spacing: -.05em;
+	backface-visibility: hidden !important;
+	transform:
+		scale(7.5, 7.8)
+		translate(1.18em, .98em);
+	-webkit-transform:
+		scale(7.5, 7.8)
+		translate(1.18em, .98em);
+	-moz-transform:
+		scale(7.5, 7.8)
+		translate(1.18em, .98em);
+}
+
+.javascript {
+	letter-spacing: -.04em;
+	font-weight: 400;
+	transform:
+		scale(1.4)
+		rotate(90deg)
+		translate(3.88em, -13.2em);
+	-webkit-transform:
+		scale(1.4)
+		rotate(90deg)
+		translate(3.88em, -13.2em);
+	-moz-transform:
+		scale(1.4)
+		rotate(90deg)
+		translate(3.88em, -13.2em);
+}
+
+.photoshop {
+	letter-spacing: -.05em;
+	font-weight: 300;
+	transform:
+		scale(1.4, 1.33)
+		rotate(90deg)
+		translate(4.1em, -18.5em);
+	-webkit-transform:
+		scale(1.4, 1.33)
+		rotate(90deg)
+		translate(4.1em, -18.5em);
+	-moz-transform:
+		scale(1.4, 1.33)
+		rotate(90deg)
+		translate(4.1em, -18.5em);
+}
+
+.name {
+	color: $orange1;
+	font-weight: 500;
+	letter-spacing: -.03em;
+	word-spacing: .3em;
+	transform:
+		scale(2)
+		translate(2.4em, 1.7em);
+	-webkit-transform:
+		scale(2)
+		translate(2.4em, 1.7em);
+	-moz-transform:
+		scale(2)
+		translate(2.4em, 1.7em);
+}
+
+.front {
+	color: $orange2;
+	font-weight: 400;
+	letter-spacing: -.04em;
+	transform:
+		scale(2.85, 3)
+		translate(7.14em, 4.4em);
+	-webkit-transform:
+		scale(2.85, 3)
+		translate(7.14em, 4.4em);
+	-moz-transform:
+		scale(2.85, 3)
+		translate(7.14em, 4.4em);
+}
+
+.ajax {
+	letter-spacing: -0.01em;
+	font-weight: 700;
+	transform:
+		scale(2.4, 2.3)
+		rotate(90deg)
+		translate(6em, -5.8em);
+	-webkit-transform:
+		scale(2.4, 2.3)
+		rotate(90deg)
+		translate(6em, -5.8em);
+	-moz-transform:
+		scale(2.4, 2.3)
+		rotate(90deg)
+		translate(6em, -5.8em);
+}
+
+.css3 {
+	letter-spacing: .01em;
+	font-weight: 700;
+	transform:
+		scale(6.8, 6.75)
+		rotate(90deg)
+		translate(1.32em, -4.54em);
+	-webkit-transform:
+		scale(6.8, 6.75)
+		rotate(90deg)
+		translate(1.32em, -4.54em);
+	-moz-transform:
+		scale(6.8, 6.75)
+		rotate(90deg)
+		translate(1.32em, -4.54em);
+}
+
+.jquery {
+	letter-spacing: 0.045em;
+	font-weight: 700;
+	transform:
+		scale(3.88, 3.8)
+		translate(5.3em, 4.32em);
+	-webkit-transform:
+		scale(3.88, 3.8)
+		translate(5.3em, 4.32em);
+	-moz-transform:
+		scale(3.88, 3.8)
+		translate(5.3em, 4.32em);
+}
+
+.responsive {
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	transform:
+		scale(1.85, 1.9)
+		translate(1.9em, 6.5em);
+	-webkit-transform:
+		scale(1.85, 1.9)
+		translate(1.9em, 6.5em);
+	-moz-transform:
+		scale(1.85, 1.9)
+		translate(1.9em, 6.5em);
+}
+
+.wordpress {
+	font-weight: 300;
+	letter-spacing: -0.05em;
+	transform:
+		scale(2.75, 3)
+		translate(1.72em, 4.95em);
+	-webkit-transform:
+		scale(2.75, 3)
+		translate(1.72em, 4.95em);
+	-moz-transform:
+		scale(2.75, 3)
+		translate(1.72em, 4.95em);
+}
+
+.seo {
+	font-weight: 300;
+	letter-spacing: -0.07em;
+	transform:
+		scale(3.9, 4)
+		translate(6.05em, .95em);
+	-webkit-transform:
+		scale(3.9, 4)
+		translate(6.05em, .95em);
+	-moz-transform:
+		scale(3.9, 4)
+		translate(6.05em, .95em);
+}
+
+.php {
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	word-spacing: .2em;
+	transform:
+		scale(2)
+		translate(2.28em, 8.58em);
+	-webkit-transform:
+		scale(2)
+		translate(2.28em, 8.58em);
+	-moz-transform:
+		scale(2)
+		translate(2.28em, 8.58em);
+}
+
+.standards {
+	font-weight: 300;
+	letter-spacing: 0em;
+	word-spacing: .1em;
+	transform:
+		scale(2)
+		translate(11em, 5.2em);
+	-webkit-transform:
+		scale(2)
+		translate(11em, 5.2em);
+	-moz-transform:
+		scale(2)
+		translate(11em, 5.2em);
+}
+.web {
+	font-weight: 300;
+	letter-spacing: 0em;
+	word-spacing: .1em;
+	transform:
+		scale(2)
+		translate(8.5em, 1.7em);
+	-webkit-transform:
+		scale(2)
+		translate(8.5em, 1.7em);
+	-moz-transform:
+		scale(2)
+		translate(8.5em, 1.7em);
+}
+
+.dev {
+	color: $orange2;
+	font-weight: 700;
+	letter-spacing: -.03em;
+	transform:
+		scale(3.4)
+		translate(6.9em, 2.15em);
+	-webkit-transform:
+		scale(3.4)
+		translate(6.9em, 2.15em);
+	-moz-transform:
+		scale(3.4)
+		translate(6.9em, 2.15em);
+}
+
+.resume {
+	color: $orange2;
+	font-weight: 700;
+	letter-spacing: -.03em;
+	transform:
+		scale(2)
+		translate(14.9em, 8.6em);
+	-webkit-transform:
+		scale(2)
+		translate(14.9em, 8.6em);
+	-moz-transform:
+		scale(2)
+		translate(14.9em, 8.6em);
+}
+
+.decal_left{
+	left:-600px !important;
+}
+.decal_right{
+	left:600px !important;
+}
+.decal_top{
+	top:-600px !important;
+}
+.decal_bot{
+	top:600px !important;
+}
+.fading{
+	opacity : 0;
+}
+.html5, .css3, .resume{
+	transition: all 2s !important;
+}
+
+@media (min-width:992px) and (max-width:1999px){
+	#techList {font-size: 1.4vmin;}
+}
+@media(min-width:768px) and (max-width:991px){
+	#techList {font-size: 1.15vmin;}
+}
+@media(min-width:576px) and (max-width:767px){
+	#techList {font-size: 1.2vmin;}
+}
+@media(max-width:767px){
+	.nav-scaled{
+		height: 71px;
+	}
+	.containerburger{
+		display: block;
+	}
+	.nav{
+		display: none;
+		padding-top: 100px;
+		background-color: #333;
+		position: absolute;
+		left: -113px;
+		width: 180px;
+		a{
+			text-align: left;
+			margin-left: 1rem;
+			padding: 10px 0 !important;
+		}
+	}
+	.nav-masthead .nav-link {
+		&:after, .nav-masthead .active:after {
+			top: 36px;
+		}
+	}
+	.nav-masthead .nav-link:hover:after,
+	.nav-masthead .nav-link:focus:after,
+	.nav-masthead .active:after{
+		width: 90%;
+	}
+}
+@media(max-width:677px){
+	.site-wrapper{
+		height: 70vh;
+		min-height: 70vh;
+	}
+}
+@media(max-width:480px){
+	#techList {font-size: 1.2vmin;}
+	.ajax {
+		transform:
+			scale(2.4, 2.3)
+			rotate(90deg)
+			translate(6em, -5.5em);
+		-webkit-transform:
+			scale(2.4, 2.3)
+			rotate(90deg)
+			translate(6em, -5.5em);
+		-moz-transform:
+			scale(2.4, 2.3)
+			rotate(90deg)
+			translate(6em, -5.5em);
+	}
+	.html5 {
+		font-weight: 700;
+		letter-spacing: -.05em;
+		backface-visibility: hidden !important;
+		transform:
+			scale(7.5, 7.8)
+			translate(1.18em, 1.05em);
+		-webkit-transform:
+			scale(7.5, 7.8)
+			translate(1.18em, 1.05em);
+		-moz-transform:
+			scale(7.5, 7.8)
+			translate(1.18em, 1.05em);
+	}
+		.nav{
+		left: -0px;
+	}
+}

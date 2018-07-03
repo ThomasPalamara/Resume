@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../assets/scss/style.css",
+	"sources": [
+		"../assets/scss/style.scss"
+	],
+	"sourcesContent": [
+		".content-wrapper {\r\n    overflow: hidden;\r\n    section {\r\n        height: 90vh;\r\n        float: left;\r\n    }\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,MAAO;CAKpB;;;AAND,AAEI,gBAFY,CAEZ,OAAO,CAAC;EACJ,MAAM,EAAE,IAAK;EACb,KAAK,EAAE,IAAK;CACf",
+	"names": []
+}

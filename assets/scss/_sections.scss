@@ -1,0 +1,37 @@
+.page{
+    overflow: hidden;
+    display: block;
+    height: auto;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.content-wrapper {
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+    section {
+        position: relative;
+        text-align: center;
+        height: 90vh;
+        float: left;
+    }
+}
+
+#section2{
+     background: #333;
+}
+.test2#section1{
+    
+    background: #fff;
+    li{
+        color: #424242;
+        
+        &.resume, &.front{
+            color: #5090f7 
+        }
+        &.name{
+            color: #8860D0
+        }
+    }
+}
